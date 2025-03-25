@@ -1,0 +1,35 @@
+{
+  "name": "@garage44/eslint-config",
+  "version": "1.0.0",
+  "description": "Eslint code conventions for Garage44 projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garage44/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Garage44",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garage44/eslint-config/issues"
+  },
+  "homepage": "https://github.com/garage44/eslint-config#readme",
+  "dependencies": {
+    "eslint-plugin-sort-class-members": "^1.21.0",
+    "typescript-eslint": "^7.0.0",
+    "globals": "^14.0.0"
+  },
+  "peerDependencies": {
+		"eslint": ">= 9"
+	},
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module"
+}
