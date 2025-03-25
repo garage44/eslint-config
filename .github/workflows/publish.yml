@@ -43,6 +43,6 @@ jobs:
           rc-wording: 'rc'
 
       - name: Publish to NPM
-        run: bun run npm publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
