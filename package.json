@@ -1,6 +1,6 @@
 {
   "name": "@garage44/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Eslint code conventions for Garage44 projects",
   "main": "index.js",
   "scripts": {
