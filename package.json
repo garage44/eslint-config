@@ -1,6 +1,6 @@
 {
   "name": "@garage44/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint code conventions for Garage44 projects",
   "main": "index.js",
   "scripts": {
@@ -26,8 +26,8 @@
     "globals": "^14.0.0"
   },
   "peerDependencies": {
-		"eslint": ">= 9"
-	},
+    "eslint": ">= 9"
+  },
   "publishConfig": {
     "access": "public"
   },
